@@ -1,6 +1,7 @@
 import React from 'react';
+import { StyledStartButton } from './styles/StyledStartButton'; 
 
 const StartButton = props =>
-  <div>Start Game</div>
+  <StyledStartButton onlick = { props.callback } >Start Game</StyledStartButton>
 
 export default StartButton; 

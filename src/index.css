@@ -16,3 +16,8 @@ code {
   font-family: 'Pixel';
   src: url('font/Pixel-LCD-7.woff') format('woff');
 }
+
+.DisplayText {
+  color: rgba(255, 215, 0, 1);
+}
+
