@@ -6,4 +6,4 @@ const Cell = (props) =>
 
   <StyledCell type = { props.type } color = { Tetrominos[props.type].color } />
 
-export default Cell; 
+export default React.memo(Cell); 
